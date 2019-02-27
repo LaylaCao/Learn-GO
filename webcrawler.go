@@ -111,7 +111,7 @@ func main() {
 
 	os.Chdir("./image")   //修改工作目录
 
-	str := httpGet("http://jiandan.net/ooxx")
+	str := httpGet("https://www.instagram.com/_sicong/")
 
 	reg := httpRegex(str)
 
